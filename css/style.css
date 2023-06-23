@@ -13,7 +13,7 @@
   padding: 0;
   font-family: "Mulish", sans-serif;
 }
-.home-page {
+#home-page {
   background-image: linear-gradient(var(--top-gradient), var(--white));
 }
 .navbar {
@@ -299,20 +299,20 @@ a {
   /* border: 1px solid var(--dark-blue); */
 }
 #pricing .basic-pricing-text p {
-    font-size: 20px;
-    line-height: 32px;
-  }
-  #pricing .basic-pricing-text h1 {
-    font-size: 40px;
-    line-height: 48px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-  }
-  #pricing .basic-pricing-text ul {
-    line-height: 50px;
-    font-size: 14px;
-    padding-top: 20px;
-  }
+  font-size: 20px;
+  line-height: 32px;
+}
+#pricing .basic-pricing-text h1 {
+  font-size: 40px;
+  line-height: 48px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+#pricing .basic-pricing-text ul {
+  line-height: 50px;
+  font-size: 14px;
+  padding-top: 20px;
+}
 #pricing .team-pricing {
   height: 28.4rem;
   width: 23.7rem;
@@ -352,28 +352,27 @@ a {
   color: var(--white);
 }
 #pricing .team-pricing-text p {
-    font-size: 20px;
-    line-height: 32px;
-  }
-  #pricing .team-pricing-text h1 {
-    font-size: 40px;
-    line-height: 48px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-  }
-  #pricing .team-pricing-text ul {
-    line-height: 50px;
-    font-size: 14px;
-    padding-top: 20px;
-  }
-#pricing ul{
-    list-style-type: none;
+  font-size: 20px;
+  line-height: 32px;
+}
+#pricing .team-pricing-text h1 {
+  font-size: 40px;
+  line-height: 48px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+#pricing .team-pricing-text ul {
+  line-height: 50px;
+  font-size: 14px;
+  padding-top: 20px;
+}
+#pricing ul {
+  list-style-type: none;
 }
 
-#pricing ul li{
-    display: flex;
-    
+#pricing ul li {
+  display: flex;
 }
-#pricing ul li img{
-    padding-right: 5px;
+#pricing ul li img {
+  padding-right: 5px;
 }
