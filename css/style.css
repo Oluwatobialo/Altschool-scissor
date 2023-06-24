@@ -592,8 +592,8 @@ input:checked + label + .content {
     bottom: 900px;
 }
 footer{
-    /* position: relative;
-    bottom: 800px; */
+    position: relative;
+    bottom: 100px;
 }
 .flex-1{
     display: flex;
